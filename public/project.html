@@ -1,230 +1,43 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>KemUdja Guide App</title>
-  <meta charset="utf-8">
+    <head>
+        <title>KemUdja Guide App, by L0b0</title>
+        <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="/img/favicon.png">
-  <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="/css/styles.css">
-  <script type="text/javascript">
-        //<!--
-				function change_onglet(name)
-                {
-                        document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
-                        document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
-                        document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
-                        document.getElementById('contenu_onglet_'+name).style.display = 'block';
-                        anc_onglet = name;
-                }
-        //-->
-  </script>
-  <style type="text/css">
-		#banner 
-		{
-		position: absolute;
-		top: 0px;
-		left: 0px;
-		right: 0px;
-		z-index: -1;
-		}
-		.header
-		{
-				display:inline-block;
-                margin-top:-1px;
-                 margin-left:3px;
-                margin-right:3px;
-                padding:3px;
-                border-radius: 0 4px 4px 0;
-				width: 99%;
-				height: 100px;
-             
-		}		
-		.onglet
-        {
-                display:inline-block;
-                margin-left:3px;
-                margin-right:3px;
-                padding:3px;
-                border-radius: 0 4px 4px 0;
-                cursor:pointer;
-        }
-        .onglet_0
-        {
-                background:rgb(0, 172, 20);
-                border-bottom-color: transparent;
-        }
-        .onglet_1
-        {
-                background:rgb(31, 255, 23);
-                border-bottom:0px solid black;
-                padding-bottom:4px;
-        }
-        .contenu_onglet
-        {
-                background-color:white;
-                border-radius: 0 4px 4px 0;
-                margin-top:-1px;
-                padding:5px;
-                display:none;
-        }
-		contenu_footer
-		{
-				background-color:rgb(242, 242, 0);
-                border-radius: 0 4px 4px 0;
-                margin-top:-1px;
-                padding:15px;
-                display:none;
-		}
-        ul
-        {
-                margin-top:0px;
-                margin-bottom:0px;
-                margin-left:-10px
-        }
-        h1
-        {
-                margin:0px;
-                padding:0px;
-        }    
-  </style> 
-</head>
-<body>
-<div class="container">
+        <link rel="icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/bootstrap.css">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+    <div class="container">
         <header>
-            <h2>Kem Udja</h2>            
+            <h2>Kem Udja</h2>           
             <a href="/">Home</a>
-            <a href="/project.html">Books</a>
+            <a href="/project.html">Read</a>
             <a href="/join.html">Chat</a>
             <a href="/about.html">About</a>
         </header>
-</div>
-          
+    </div>
+
 <div class="centered-form col-md-12 col-xs-12">      
-<div class="centered-container">
-<div class="systeme_onglets">
-<div class="onglets">
-            <span class="onglet_0 onglet" id="onglet_off" onclick="javascript:change_onglet('off');">Offre Kamit</span>
-            <span class="onglet_0 onglet" id="onglet_cos" onclick="javascript:change_onglet('cos');">Cosmogénèse Kamit</span>
-            <span class="onglet_0 onglet" id="onglet_rit" onclick="javascript:change_onglet('rit');">Rituels Kamits</span>
-            <span class="onglet_0 onglet" id="onglet_con" onclick="javascript:change_onglet('con');">Contes Kamit</span>
-            <span class="onglet_0 onglet" id="onglet_man" onclick="javascript:change_onglet('man');">Manuel Kamit</span>
-
-</div>
-        
-<div class="contenu_onglets">
-<div class="contenu_onglet" id="contenu_onglet_off">
-<h3>Enjeux mondiaux et offre Kamit, Khru etc... </h3> <br/>
-
-LA KAMIOTHEQUE
-Our documentation on Afro-conscious
-by Soh Tankeo
-
-</div>      
-       
-
-<div class="contenu_onglet" id="contenu_onglet_cos">            
-    <br/> Hierarchie des divinités Kamit <br/><br/>
-</div>       
-
-<div class="contenu_onglet" id="contenu_onglet_rit">            
-    <br/> Rites et Coutumes Kamit? <br/><br/>
-	<span class="onglet_0 onglet" id="onglet_bams" onclick="javascript:change_onglet('bams');">
-	<b><center>Grassfield</center></b> <br/> La Montagne</span>
-
-        <span class="onglet_0 onglet" id="onglet_beti" onclick="javascript:change_onglet('beti');">
-	<b><center>Fang</center></b> <br/> La Foret </span>
-
-	<span class="onglet_0 onglet" id="onglet_cote" onclick="javascript:change_onglet('cote');">
-	<b><center>Elog Mpo'o</center></b>  <br/>La Cote </span>
-
-	<span class="onglet_0 onglet" id="onglet_peul" onclick="javascript:change_onglet('peul');">
-	<b><center>Fufuldé</center></b>  <br/> Le Désert </span>
-	<br/>
-</div>       
-
-<div class="contenu_onglet" id="contenu_onglet_con">            
-    <br/> Contes et légendes Kamits <br/><br/>
-</div>       
-
-<div class="contenu_onglet" id="contenu_onglet_man">            
-    <br/> Le manuel du petit Kamite <br/><br/>
-	<span class="onglet_0 onglet" id="onglet_maat" onclick="javascript:change_onglet('maat');">
-	<b><center>Les Lois</center></b> <br/> MAAT et le Cosmos</span>
-
-        <span class="onglet_0 onglet" id="onglet_life" onclick="javascript:change_onglet('life');">
-	<b><center>Lifesyle</center></b> <br/>  Une vie de Kamit  </span>
-
-	<span class="onglet_0 onglet" id="onglet_date" onclick="javascript:change_onglet('date');">
-	<b><center>Calendrier kamite</center></b>  <br/> Calendrier kamite </span>
-	<br/>
-
-	<span class="onglet_0 onglet" id="onglet_ubun" onclick="javascript:change_onglet('ubun');">
-	<b><center>Communauté</center></b>  <br/> UBUNTU </span>
-	<br/>
-</div>       
-
-<div class="contenu_onglet" id="contenu_onglet_bams">
-<h3>BAMS</h3>
-<br/>
-<span class="onglet_0 onglet" id="onglet_rit" onclick="javascript:change_onglet('rit');">Back</span>
-</div>	
-		
-<div class="contenu_onglet" id="contenu_onglet_beti">
-<h3>BETI</h3>
-<br/><br/>
-<span class="onglet_0 onglet" id="onglet_rit" onclick="javascript:change_onglet('rit');">Back</span>
-</div>		
+ <div class="centered-container">
+   <h3>Culture et traditions </h3>
+	 Cosmogénèse Kamite : Hierarchie des divinités <br/>
+	 Rites de passage communs: Grassfield, La Montagne - Fang, La Foret - Elog Mpo'o, La Cote - Fufuldé, Le Désert <br/>
+	 Le Totemisme, par Teumo <br/>
+	 etc...
+ </div> 
 	
-<div class="contenu_onglet" id="contenu_onglet_cote">
-<h3>MPOO</h3>
+ <div class="centered-container">
+   <h3>Manuel du petit Kamite:</h3>
+	les LOIS <br/>
+	une vie de Kamit <br/>
+	Le calendrier Kamit <br/>
+ </div>          
+</div>         
 <br/>
-<span class="onglet_0 onglet" id="onglet_rit" onclick="javascript:change_onglet('rit');">Back</span>
-</div>
-
-<div class="contenu_onglet" id="contenu_onglet_peul">
-<h3>PEUL/h3>
+	    
 <br/>
-<span class="onglet_0 onglet" id="onglet_rit" onclick="javascript:change_onglet('rit');">Back</span>
-</div>		
-
-<div class="contenu_onglet" id="contenu_onglet_maat">
-<h3>MAAT</h3>
-<br/>
-<span class="onglet_0 onglet" id="onglet_man" onclick="javascript:change_onglet('man');">Back</span>
-</div>	
-		
-<div class="contenu_onglet" id="contenu_onglet_life">
-<h3>LIFE</h3>
-<br/>
-<span class="onglet_0 onglet" id="onglet_man" onclick="javascript:change_onglet('man');">Back</span>
-</div>		
-	
-<div class="contenu_onglet" id="contenu_onglet_date">
-<h3>Kamit Calendar</h3>
-Wsiré, Aset, Swté, Nabintw, Horo: July 14 to 18
-Renepet Neferet: July 19
-Kwanzaa: December 25 - January 02
-Calendar of traditional Kamit Festivals, Nguon Ngondo, Vaudou and others ...)
-News feed of Kemites events by community ( meetings, outings, excursions, ...)
-all this with times, places and focal points by community
-<br/>
-<span class="onglet_0 onglet" id="onglet_man" onclick="javascript:change_onglet('man');">Back</span>
-</div>
-
-<div class="contenu_onglet" id="contenu_onglet_ubun">
-<h3>Enjoy...</h3>
-<br/>
-<span class="onglet_0 onglet" id="onglet_man" onclick="javascript:change_onglet('man');">Back</span>
-</div>		
-
-</div> </div> <br/> </div> </div> <br/> <br/> <center align= "right">Copyright (c) <b>KEMUDJA 2021</b> - <i>Reb00ting Afrika ...</i></center> 
-        
-<script type="text/javascript">
- //<!--
-    var anc_onglet = 'home';
-    change_onglet(anc_onglet);
-//-->
-</script>
+<center align= "right">Copyright (c) <b>KEMUDJA 2021</b> - <i>Reb00ting Afrika ...</i></center>        
 </body>
 </html>
