@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>KemUdja - Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/img/favicon.png">
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script type="text/javascript">
+        //<!--
+				function change_onglet(name)
+                {
+                        document.getElementById('onglet_'+anc_onglet).className = 'onglet_0 onglet';
+                        document.getElementById('onglet_'+name).className = 'onglet_1 onglet';
+                        document.getElementById('contenu_onglet_'+anc_onglet).style.display = 'none';
+                        document.getElementById('contenu_onglet_'+name).style.display = 'block';
+                        anc_onglet = name;
+                }
+        //-->
+  </script>
+  <style type="text/css">
+		#banner 
+		{
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		z-index: -1;
+		}
+		.header
+		{
+				display:inline-block;
+                margin-top:-1px;
+                 margin-left:3px;
+                margin-right:3px;
+                padding:3px;
+                border-radius: 0 4px 4px 0;
+				width: 99%;
+				height: 100px;
+             
+		}		
+		.onglet
+        {
+                display:inline-block;
+                margin-left:3px;
+                margin-right:3px;
+                padding:3px;
+                border-radius: 0 4px 4px 0;
+                cursor:pointer;
+        }
+        .onglet_0
+        {
+                background:rgb(0, 172, 20);
+                border-bottom-color: transparent;
+        }
+        .onglet_1
+        {
+                background:rgb(31, 255, 23);
+                border-bottom:0px solid black;
+                padding-bottom:4px;
+        }
+        .contenu_onglet
+        {
+                background-color:white;
+                border-radius: 0 4px 4px 0;
+                margin-top:-1px;
+                padding:5px;
+                display:none;
+        }
+		contenu_footer
+		{
+				background-color:rgb(242, 242, 0);
+                border-radius: 0 4px 4px 0;
+                margin-top:-1px;
+                padding:15px;
+                display:none;
+		}
+        ul
+        {
+                margin-top:0px;
+                margin-bottom:0px;
+                margin-left:-10px
+        }
+        h1
+        {
+                margin:0px;
+                padding:0px;
+        }    
+  </style> 
+</head>
+<body>
+<div class="container">
+    <header>
+        <h2>Kem Udja</h2>           
+        <a href="/1home.html">Home</a>
+        <a href="/2read.html">Read</a>
+	<a href="/3media.html">Media</a>            
+	<a href="/4join.html">Chat</a>
+        <a href="/5about.html">About</a>
+    </header>
+    </div>
+
+<div class="centered-form col-md-12 col-xs-12"> 
+
+<div class="centered-form__box">
+     
+<div class="systeme_onglets">
+<div class="onglets">
+            <span class="onglet_0 onglet" id="onglet_home" onclick="javascript:change_onglet('home');">What ?</span>
+            <span class="onglet_0 onglet" id="onglet_why" onclick="javascript:change_onglet('why');">Why ?</span>
+	    <span class="onglet_0 onglet" id="onglet_where" onclick="javascript:change_onglet('where');">Where ?</span>
+</div>
+        
+<div class="contenu_onglets">
+<div class="contenu_onglet" id="contenu_onglet_home">
+<center><h3>Welcome back, Ancestor !!!</h3></center>
+<i>...une braise séparée du foyer originel s'éteint progressivement, si elle n'est pas entretenue pour la construction d'un nouveau foyer.
+</i><br/>
+<center align= "right">S.M. Pr Mbonji</center>
+</div>      
+
+<div class="contenu_onglet" id="contenu_onglet_why">
+<h4>Enjeux socio-politico-militaires et géostratégiques </h4>
+Edito by Soh Tankeo
+</div>      
+       
+<div class="contenu_onglet" id="contenu_onglet_where">            
+    <br/> What do you want ? <br/><br/>
+	<span class="onglet_0 onglet" id="onglet_food" onclick="javascript:change_onglet('food');">
+	<b><center>Foods n Drinks</center></b> <br/> Local and foreign foods...</span>
+	
+        <span class="onglet_0 onglet" id="onglet_care" onclick="javascript:change_onglet('care');">
+	<b><center>Life Style</center></b> <br/>  Local dressing, haircut, oils and encent  </span>
+	
+	<span class="onglet_0 onglet" id="onglet_out" onclick="javascript:change_onglet('out');">
+	<b><center>Being together...</center></b>  <br/> Meetings, Party, Excursions </span>
+	<br/>
+</div>              
+
+</div>
+
+<div class="contenu_onglet" id="contenu_onglet_food">
+<h3>Fast food</h3>
+                <b>Rotisserie TCHOYS</b><br/>
+				Fish, meat, naturals drinks<br/>
+				Tsinga Village, Yaoundé<br/>
+				Tel (WhatsApp): 00 327 000 000 000<br/>
+				Mail: tchoys@tchoys.cm<br/>
+				<br/>
+				<b>TOUNGOU PLACE</b><br/>
+				Shawarma, Dakéré<br/>
+				Ngousso, Yaoundé<br/>
+				Tel (WhatsApp): 00 327 000 000 000<br/>
+				Mail: dakere@soya.cm<br/>
+<br/><span class="onglet_0 onglet" id="onglet_where" onclick="javascript:change_onglet('where');">Back</span>
+</div>			
+
+<div class="contenu_onglet" id="contenu_onglet_care">
+<h3>Local wear...</h3>
+                <b>MadeInCameroun (M.I.C) Brand</b><br/>
+				Dressing for men, women and children<br/>
+				Marché Mokolo, Yaoundé<br/>
+				Marché Congo, Douala<br/>
+				Tel (WhatsApp): 00 327 000 000 000<br/>
+				Mail: kankan@kakos.cm<br/>
+                <b>The Kemit Home</b><br/>
+				Haircut for men, women and children<br/>
+				Feu rouge Béssenguè, Douala<br/>
+				Tel (WhatsApp): 00 327 000 000 000<br/>
+				Mail: kemit@home.cm<br/>
+<br/><span class="onglet_0 onglet" id="onglet_where" onclick="javascript:change_onglet('where');">Back</span>
+</div>
+
+<div class="contenu_onglet" id="contenu_onglet_out">
+<h3>Enjoy...</h3>
+                <b>The KAMA point</b><br/>
+				Traditionnal Lounge<br/>
+				Etoudi, Yaoundé<br/>
+				Tel (WhatsApp): 00 327 000 000 000<br/>
+				Mail: kama@odontol.cm<br/>
+<br/>
+...................et on paye tout ca avec quoi???
+<span class="onglet_0 onglet" id="onglet_kru" onclick="javascript:change_onglet('kru');"><i>The KRU: african currency</i></span></center>
+<br/>
+<br/><span class="onglet_0 onglet" id="onglet_where" onclick="javascript:change_onglet('where');">Back</span>
+</div>		
+
+<div class="contenu_onglet" id="contenu_onglet_kru"> 
+<img id="banner" src="kolo.png"/>              
+<h3>Un systeme de valeur monétaire Kamit précolonial: le KRU</h3>
+	
+	// a mettre dans onglet lire petit Kamit
+	
+Avant l’imposition des monnaies européennes (Reichsmarks, Franc des Comptoirs Français d’Afrique), le Kamerun avait sa propre monnaie. <br/>
+Le Prince KUM’A NDUMBE III déclare : <br/><br/> <i>
+« depuis 1894, donc depuis 116 ans, l’économie du Cameroun a perdu son autonomie monétaire et est gérée officiellement par des monnaies européennes ».</i><br/>
+Cette monnaie camerounaise s’appelait le Kru, bien structurée, avec plusieurs divisions dont le Keg : 1 Kru valait 4 Kegs <br/>
+C’était une monnaie forte. Un kru valait 20 Reichsmarks (monnaie allemande, monnaie du « colonisateur ») <br/>
+Et KUM’A NDUMBE III d’ajouter : 
+<br/><i>« Avec 1 Kroo, on pouvait s’acheter:<br/>
+- 4 sacs de sel de 125 livres <br/>
+- 300 feuilles de tabac <br/>
+- 100kg de palmistes ». <br/></i><br/>
+<strong>Quelles opportunités pour Kama à l'heure des kryptomonnaies comme support de developpement ?   </strong>
+<br/><span class="onglet_0 onglet" id="onglet_where" onclick="javascript:change_onglet('where');">Back</span>
+</div>
+	
+</div> </div> 
+<br/> </div> </div> 
+	
+<br/>
+<center align= "right">(c) <b>Kemudja 2021</b></center>
+        
+<script type="text/javascript">
+ //<!--
+    var anc_onglet = 'home';
+    change_onglet(anc_onglet);
+//-->
+</script>
+</body></html>
